@@ -175,8 +175,7 @@ form .text-label {
 .form-bottom {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
+    justify-content: space-between;
     height: 1rem;
 }
 
@@ -202,9 +201,17 @@ form .text-label {
 
 .forgot-password {
     flex: 1;
-    display: flex;
+    margin-top: 0;
+    /* display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-end; */
+}
+
+.forgot-password p {
+    margin-top: 0;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end; */
 }
 
 .forgot-password a {
@@ -240,8 +247,6 @@ form .text-label {
     margin-top: 10rem;
     justify-content: center;
 }
-
-#right .register {}
 
 #right .register-label {
     margin-top: 0;
